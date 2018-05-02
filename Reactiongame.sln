@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reactiongame", "Reactiongame\Reactiongame.vcxproj", "{BA3FE782-9C85-4549-B150-55E51336FB58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA3FE782-9C85-4549-B150-55E51336FB58}.Debug|ARM.ActiveCfg = Debug|ARM
+		{BA3FE782-9C85-4549-B150-55E51336FB58}.Debug|ARM.Build.0 = Debug|ARM
+		{BA3FE782-9C85-4549-B150-55E51336FB58}.Release|ARM.ActiveCfg = Release|ARM
+		{BA3FE782-9C85-4549-B150-55E51336FB58}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B00AC9A-4B32-4172-9EC2-497BAB8405D6}
+	EndGlobalSection
+EndGlobal
