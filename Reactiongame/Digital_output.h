@@ -18,3 +18,5 @@ private:
 	int pin_;
 	bool state_;	//saves current state (on/off)
 };
+
+//bla adding to test stuff
