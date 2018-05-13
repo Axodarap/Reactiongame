@@ -6,11 +6,10 @@ class Player
 {
 	
 public:
-	Player();
 	Player(string name);
 	void increase_score();
+	void reset_score();
 	int get_score();
-	void set_name(string name);
 	string get_name();
 
 

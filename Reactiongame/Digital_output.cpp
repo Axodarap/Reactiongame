@@ -1,13 +1,6 @@
 #include "Digital_output.h"
 
 
-Digital_output::Digital_output() : pin_{ 1 }, state_{ LOW }
-{
-	wiringPiSetup();
-	pinMode(pin_, OUTPUT);
-	digitalWrite(pin_, state_);
-}
-
 Digital_output::Digital_output(int pin, bool state) : pin_{ pin }, state_{ state }
 {
 	wiringPiSetup();
@@ -17,23 +10,23 @@ Digital_output::Digital_output(int pin, bool state) : pin_{ pin }, state_{ state
 
 bool Digital_output::return_current_state()
 {
-	return state_;
+	return digitalRead(pin_);
 }
 
 void Digital_output::turn_on()
 {
-	state_ = 1;
+	state_ = true;
 	digitalWrite(pin_, HIGH);
 
 }
 
 void Digital_output::turn_off()
 {
-	state_ = 0;
+	state_ = false;
 	digitalWrite(pin_, LOW);
 }
 
-void Digital_output::blink()
+void Digital_output::blink() const
 {
 	for(int i=0; i<3; i++)
 	{

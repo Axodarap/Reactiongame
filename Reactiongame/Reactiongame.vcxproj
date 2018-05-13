@@ -52,14 +52,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Digital_output.cpp" />
-    <ClCompile Include="IDigitalOut.cpp" />
+    <ClCompile Include="game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\Linux\include\wiringPi\2.32\wiringPi.h" />
     <ClInclude Include="Digital_output.h" />
-    <ClInclude Include="IDigitalOut.h" />
+    <ClInclude Include="Enums.h" />
+    <ClInclude Include="game.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
